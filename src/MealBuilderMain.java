@@ -101,7 +101,7 @@ public class MealBuilderMain {
 		CloseableHttpClient client = HttpClients.createDefault();
 		FoodList allFoods = new FoodList();
 		
-		File k = new File("src/secret.txt");
+		File k = new File("secret.txt");
 		@SuppressWarnings("resource")
 		Scanner s = new Scanner(k);
 		String key = s.next();
